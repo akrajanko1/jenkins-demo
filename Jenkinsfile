@@ -1,9 +1,10 @@
+@Library("aws-cli-shared-library") _
 pipeline {
     agent any
     stages {
         stage('Build') {
             steps {
-                sh 'echo helloworld'
+                sh "cat file.txt"
             }
         }
     }
