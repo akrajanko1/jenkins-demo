@@ -1,0 +1,15 @@
+{
+    "rbac-folders": [
+        "OCT"
+    ],
+
+    "OCT/mft-app": [
+        {
+            "name": "mft-app-1",
+            "repo": "Koushic/app-1",
+            "branch": "master",
+            "file": "Jenkinsfile"
+        }
+    ]
+
+}
