@@ -12,7 +12,6 @@ for  (def folderPath: projects.keySet()) {
                 println "Creating folder: " + _folderPath
                 folder(_folderPath) {
                     displayName(individualFolderName)
-                    displayName(folderDescription)
                 }
                 _folderPath += "/"
             }
