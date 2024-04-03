@@ -3,7 +3,7 @@ import groovy.json.JsonSlurper
 def pipelinesListFileName = "pipelines_list"
 def projects = new JsonSlurper().parseText(new File("${WORKSPACE}",pipelinesListFileName).text)
 
-for  (def folderPath projects.keySet()) {
+for  (def folderPath: projects.keySet()) {
     if(folderPath != 'rbac-folders') {
         if(folderPath != 'default') {
             def _folderPath = ""
