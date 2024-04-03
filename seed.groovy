@@ -9,7 +9,7 @@ pipelineJob("greetingJob") {
                  pipeline {
                     agent any
                     stages {
-                        stage('Greet') {
+                        stage('Greet1') {
                             steps {
                                 echo "Hello!! ${name}"
                             }
